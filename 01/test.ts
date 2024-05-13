@@ -1,4 +1,4 @@
-function getInputSomething() {
+function getInputSomething(): string {
   return "1341534";
 }
 
@@ -11,8 +11,8 @@ function loadFromDatabase(id: number) {
   };
 }
 
-let str = getInputSomething();
-const id = parseInt(str);
+const str: string = getInputSomething();
+const id: number = parseInt(str);
 
-let { name, age } = loadFromDatabase(id);
+const { name, age } = loadFromDatabase(id);
 console.log(name, age);
