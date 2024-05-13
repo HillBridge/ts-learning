@@ -1,0 +1,13 @@
+{
+  "name": "ts-learning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "git@github.com:HillBridge/ts-learning.git",
+  "author": "乔国胜 <qiaoguosheng@pagmsile.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.12.11"
+  }
+}
