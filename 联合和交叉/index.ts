@@ -28,3 +28,4 @@ function bar() : void{
 // 2. never可以赋值给任何类型, 但只能被any和never赋值
 // 3. undefined可以和void兼容
 // 4. 子类型兼容还是结构性兼容, 最终在概念上都统一成[赋值兼容性]  *****
+// 5 test
