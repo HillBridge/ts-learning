@@ -23,7 +23,7 @@ let str1: string = 'hhh'
 let num1: number = 123
 let s10 = new String('hhh')
 
-s10 = str1
+s10 = s9
 
 // str1.toString() == String(str1).toString() == ( new String(str1)).toString()
 
@@ -49,6 +49,9 @@ const obj1: {
     name: 'qiao',
     age: 12
 }
+
+const aa: string = 'aa'
+const bb: string = aa
 
 
 
