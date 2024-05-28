@@ -175,7 +175,7 @@ interface NumberRecord3 {
 
 type FF5 = NumberRecord3['propD']
 
-// 映射 K in T 
+// 映射类型 K in T 类型编程第一步
 type stringify<T> = {
     [K in keyof T]: string
 }
